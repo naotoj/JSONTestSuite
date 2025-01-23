@@ -397,6 +397,11 @@ programs = {
            "url":"",
            "commands":["/usr/bin/java", "-jar", os.path.join(PARSERS_DIR, "test_java_com_leastfixedpoint_json_1_0/TestJSONParsing.jar")]
        },
+   "Java JDK":
+       {
+           "url":"",
+           "commands":["/Users/nsato/dev/jdk/git/json/build/macosx-x64/jdk/bin/java", "--enable-preview", "-jar", os.path.join(PARSERS_DIR, "test_java_jdk/TestJSONParsing.jar")]
+       },
    "Java Jackson 2.8.4":
        {
            "url":"",
